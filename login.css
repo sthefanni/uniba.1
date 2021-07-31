@@ -1,0 +1,219 @@
+.header-blk {
+  background:linear-gradient(135deg, #0c0c0c, #464646);
+  padding-bottom:30px;
+  font-family:'Source Sans Pro', sans-serif;
+}
+
+@media (min-width:768px) {
+  .header-blk {
+    padding-bottom:5px;
+  }
+}
+
+.header-blk .navbar {
+  background:transparent;
+  padding-top:.75rem;
+  padding-bottom:.75rem;
+  color:#fff;
+  border-radius:0;
+  box-shadow:none;
+  border:none;
+}
+
+@media (min-width:768px) {
+  .header-blk .navbar {
+    padding-top:1rem;
+    padding-bottom:1rem;
+  }
+}
+
+.header-blk .navbar .navbar-brand {
+  font-weight:bold;
+  color:inherit;
+}
+
+.header-blk .navbar .navbar-brand:hover {
+  color:#f0f0f0;
+}
+
+.header-blk .navbar .navbar-collapse {
+  border-top:1px solid rgba(255,255,255,0.3);
+  margin-top:.5rem;
+}
+
+@media (min-width:768px) {
+  .header-blk .navbar .navbar-collapse {
+    border-color:transparent;
+    margin:0;
+  }
+}
+
+.header-blk .navbar .navbar-collapse span .login {
+  color:#d9d9d9;
+  margin-right:.5rem;
+  text-decoration:none;
+}
+
+.header-blk .navbar .navbar-collapse span .login:hover {
+  color:#fff;
+}
+
+.header-blk .navbar .navbar-toggler {
+  border-color:rgba(255,255,255,0.3);
+}
+
+.header-blk .navbar .navbar-toggler:hover, .header-blk .navbar-toggler:focus {
+  background:none;
+}
+
+.header-blk .navbar .navbar-nav a.active, .header-blk .navbar .navbar-nav > .show .dropdown-item {
+  background:none;
+  box-shadow:none;
+}
+
+@media (min-width: 768px) {
+  .header-blk .navbar-nav .nav-link {
+    padding-left:.7rem;
+    padding-right:.7rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-blk .navbar-nav .nav-link {
+    padding-left:1.2rem;
+    padding-right:1.2rem;
+  }
+}
+
+.header-blk .navbar .navbar-nav > li > .dropdown-menu {
+  margin-top:-5px;
+  box-shadow:0 4px 8px rgba(0,0,0,.1);
+  background-color:#fff;
+  border-radius:2px;
+}
+
+.header-blk .navbar .dropdown-menu .dropdown-item:focus, .header-blk .navbar .dropdown-menu .dropdown-item {
+  line-height:2;
+  color:#37434d;
+}
+
+.header-blk .navbar .dropdown-menu .dropdown-item:focus, .header-blk .navbar .dropdown-menu .dropdown-item:hover {
+  background:#ebeff1;
+}
+
+.header-blk .action-button, .header-blk .action-button:not(.disabled):active {
+  border:1px solid rgba(255,255,255,0.7);
+  border-radius:40px;
+  color:#ebeff1;
+  box-shadow:none;
+  text-shadow:none;
+  padding:.3rem .8rem;
+  background:transparent;
+  transition:background-color 0.25s;
+  outline:none;
+}
+
+.header-blk .action-button:hover {
+  color:#fff;
+}
+
+.header-blk .navbar .form-inline label {
+  color:#d9d9d9;
+}
+
+.header-blk .navbar .form-inline .search-field {
+  display:inline-block;
+  width:80%;
+  background:none;
+  border:none;
+  border-bottom:1px solid transparent;
+  border-radius:0;
+  color:#ccc;
+  box-shadow:none;
+  color:inherit;
+  transition:border-bottom-color 0.3s;
+}
+
+.header-blk .navbar .form-inline .search-field:focus {
+  border-bottom:1px solid #ccc;
+}
+
+.header-blk .hero {
+  margin-top:20px;
+  text-align:center;
+}
+
+@media (min-width:768px) {
+  .header-blk .hero {
+    margin-top:60px;
+    text-align:left;
+  }
+}
+
+.header-blk .hero h1 {
+  color:#fff;
+  font-size:40px;
+  margin-top:0;
+  margin-bottom:15px;
+  font-weight:300;
+  line-height:1.4;
+}
+
+@media (min-width:992px) {
+  .header-blk .hero h1 {
+    margin-top:190px;
+    margin-bottom:24px;
+    line-height:1.2;
+  }
+}
+
+.header-blk .hero p {
+  color:rgba(255,255,255,0.8);
+  font-size:20px;
+  margin-bottom:30px;
+  font-weight:300;
+}
+
+.pesquisa{
+  width: 400px;
+  height: 40px;
+  margin: 200px;
+}
+
+.trem{
+  color: #fff;
+  
+  }
+
+  IMG.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #centro {
+    margin-left: 620px;
+    margin-top: 20px;
+ 
+
+  }
+
+  .campo {
+    border-radius: 10px;
+    height: 25px;
+  }
+
+  #entrar {
+    margin-left: 60px;
+    border-radius: 10px;
+    background-color: #272727;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  #lembrete {
+    font-size: 12px;
+
+  }
